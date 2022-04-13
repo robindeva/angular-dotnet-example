@@ -18,7 +18,7 @@ spec:
         app: angular-webapp
     spec:
       containers:
-      - image: docker.io/bbachin1/angular-dotnet-webapp
+      - image: dotnetimages12.azurecr.io/devtest
         name: webapp
         imagePullPolicy: Always
         resources: {}
@@ -40,4 +40,4 @@ spec:
     protocol: TCP
   selector:
     app: angular-webapp
-  type: NodePort
+  type: LoadBalancer
