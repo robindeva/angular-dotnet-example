@@ -6,7 +6,7 @@ metadata:
     app: angular-webapp
   name: angular-webapp
 spec:
-  replicas: 6
+  replicas: 8
   selector:
     matchLabels:
       app: angular-webapp
